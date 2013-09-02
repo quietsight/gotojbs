@@ -36,7 +36,7 @@ a:active {text-decoration:underline;}
 
 
 /* HEADER */
-header {
+.header {
 	width: 1000px;
 	margin: 0 auto;
 }
@@ -45,40 +45,39 @@ header {
 	position: relative;
 	float: left;
 	left: 40px;
-	top: -70px;
-	
+	top: -50px;
 }
 
 #contactinfo {
 	color: #E29F53;
-	font-size: 24px;
+	font-size: 20px;
 	line-height: 5px;
 	text-align: center;
 }
 
 #tagline {
-	font-size: 38px;
+	font-size: 34px;
 	line-height: 5px;
 }
 
 
 /* NAVBAR */
-nav {
+.nav {
 	background-image: url('images/jbnavbar.png');
 	background-repeat: no-repeat;
 	max-width: 1000px;
-	margin: 0 auto;
+	margin: 0 auto 0px;
 	height: 70px;
 }
 
-nav ul {
+.nav ul {
 	position: relative;
 	top: 12px;
 	left: 125px;
 	z-index: 999;
 }
 
-nav li {
+.nav li {
 	float: left;
 	list-style: none;
 	font-size: 32px;
@@ -88,11 +87,11 @@ nav li {
 	text-shadow: 1px 1px 2px #EEDFC6, -1px -1px 2px #513207;
 }
 
-nav li a:link, a:visited {
+.nav li a:link, a:visited {
 	color: black;
 }
 
-nav li a:hover {
+.nav li a:hover {
 	color: #EEDFC6;
 	text-shadow: 0 0 10px red;
 }
@@ -120,7 +119,23 @@ nav li a:hover {
 	color: #523200;
 }
 
+.indexblock {
+	max-width: 700px;
+	margin: 0 auto;
+	padding-left: 30px;
+}
 
+.indextile {
+	display: block;
+	text-align: justify;
+	float: left;
+	width: 200px;
+	height: 100px;
+	color: #fff;
+	overflow: hidden;
+	margin: 10px 10px;
+	background-color: red;
+}
 
 
 /* MENU */
@@ -265,6 +280,7 @@ text-indent:50px;
 	overflow: hidden;
 	background: #c2763a;
 	color: white;
+	margin-top: 10px;
 }
 
 .footerblock {

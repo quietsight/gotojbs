@@ -37,29 +37,46 @@ a:active {text-decoration:underline;}
 
 /* HEADER */
 .header {
+	position: relative;
 	width: 1000px;
 	margin: 0 auto;
 }
 
-#logo {
+.logo {
 	position: relative;
+	margin-top: -50px;
+	margin-left: 40px;
 	float: left;
-	left: 40px;
-	top: -50px;
+	background-image: url('images/jblogo.png');
+	width: 250px;
+	height: 250px;
+	transition: background-image .5s ease-out; 
+	-webkit-transition: background-image .5s ease-out;
+	-moz-transition: background-image .5s ease-out;
+	-o-transition: background-image .5s ease-out;
+	
 }
 
-#contactinfo {
+.logo:hover {
+	background-image: url('images/jblogo-hover.png');
+}
+
+.contactinfo {
 	color: #E29F53;
 	font-size: 20px;
-	line-height: 5px;
+	line-height: 1.2;
 	text-align: center;
 }
 
-#tagline {
+.tagline {
 	font-size: 34px;
 	line-height: 5px;
 }
 
+.hours p {
+	text-align: center;
+	color: #E29F53;
+}
 
 /* NAVBAR */
 .nav {
@@ -73,7 +90,7 @@ a:active {text-decoration:underline;}
 .nav ul {
 	position: relative;
 	top: 12px;
-	left: 125px;
+	left: 85px;
 	z-index: 999;
 }
 
@@ -98,10 +115,7 @@ a:active {text-decoration:underline;}
 
 
 /* MAIN CONTENT */
-.hours p {
-	text-align: center;
-	color: #E29F53;
-}
+
 
 .menupage {
 	background: #EFDFC4 url('https://s3.amazonaws.com/gotojbs/straws1.png');

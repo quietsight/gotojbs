@@ -30,6 +30,15 @@ a:visited {text-decoration:none;}
 a:hover {color: red;}
 a:active {text-decoration:underline;}
 
+@font-face {
+font-family: 'Amaranth';
+src: url('webfont.eot'); /* IE9 Compat Modes */
+src: url('fonts/amaranth-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	 url('fonts/amaranth-webfont.woff') format('woff'), /* Modern Browsers */
+	 url('fonts/amaranth-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+	 url('fonts/amaranth-webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
 .clear {
 	clear: both;
 }

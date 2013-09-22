@@ -113,6 +113,12 @@ a:active {text-decoration:underline;}
 	text-shadow: 0 0 10px red;
 }
 
+.nav2 li {
+	font-size: 26px;
+	line-height: 1.6;
+}
+
+
 
 /* MAIN CONTENT */
 
@@ -340,5 +346,8 @@ text-indent:50px;
 
 .footerlinks {
 	width: 70px;
+/* TEMPORARY */
+	visibility: hidden;
+/* TEMPORARY */	
 }
 

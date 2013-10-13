@@ -6,28 +6,32 @@
 	<meta name="author" content="Quiet Sight Inc">
 	<meta charset="UTF-8">
 
-	<title>Menu | JB's Steakhouse</title>
+	<title>Catering | JB's Steakhouse</title>
 
 	<link rel="stylesheet" type="text/css" href="jbs.css">
 	<link href="fontface.css" rel='stylesheet' type='text/css'>
 
 </head>
+
 <body>
-	<header>
-		<section>
-			<a href="index.html"><img src="images/jblogo.png" onmouseover="this.src='images/jblogo-hover.png'" onmouseout="this.src='images/jblogo.png'" alt="JB's Steak House Logo" id="logo"></a>
-		</section>
-		<section id="contactinfo">
-			<p id="tagline">Fine Family Dining</p>
-			<p>(580) 256-4845</p>
-			<p>225 E Main St, Woodward, OK</p>
-		</section>
-<section class="hours">
-	<p>Tues-Fri 11am-1:30pm for lunch – Tues-Sat 5pm-9pm for dinner – Closed Sun-Mon </p>
-</section>
-		<nav>
+
+<!-- HEADER -->
+	<div class="header">
+		<a href="index.html"><div class="logo"></div></a>
+		
+		<div class="contactinfo">
+			<p class="tagline">Fine Family Dining</p>
+			<p class="hours">
+				Tues-Fri 11am-1:30pm for lunch<br>
+				Tues-Sat 5pm-9pm for dinner<br>
+				Closed Sun-Mon </p>
+
+			<p class="addressphone">225 E Main St, Woodward, OK • (580) 256-4845</p>
+		</div>
+
+		<div class="nav">
 			<ul>
-				<li><a href="about.html">About Us</a></li>
+				<li><a href="index.html">Home</a></li>
 				<li><img src="images/jbstitch-vert.png"></li>
 				<li><a href="menu.html">Menu</a></li>
 				<li><img src="images/jbstitch-vert.png"></li>
@@ -35,10 +39,11 @@
 				<li><img src="images/jbstitch-vert.png"></li>
 				<li><a href="catering.html">Catering</a></li>
 			</ul>
-		</nav>
+		</div><!--nav-->
 
-	</header>
-<div style="clear:both"></div>
+	</div><!--header-->
+	
+<div class="clear"></div>
 
 	</div>
 <!-- MENU ITEMS -->  
@@ -67,28 +72,32 @@
 					(580) 256-4845
 				</p>
 			</div><!-- footer contact -->
+			
 			<div class="footeritem footersocial">
 				<a href="https://www.facebook.com/jbs.steakhouse?fref=ts" class="socialtag">
 					<p><img src="images/facebook.png" class="socialimg">Like Us On Facebook</p>
 				</a>
-
+				
 <div style="clear:both"></div>
-
+				
 				<a href="mailto:someone@example.com" class="socialtag">
 					<p><img src="images/email.png" class="socialimg">Send Us an Email</p>
 				</a>
 <div style="clear:both"></div>
 			</div><!-- footer contact -->
+			
 			<div class="footeritem footerlinks">
 				<p>
 					<a href="index.html">Home</a><br>
 					<a href="menu.html">Menu</a><br>
 					<a href="findus.html">Find Us</a><br>
-					<a href="about.html">About Us</a><br>
 					<a href="catering.html">Catering</a>
 				</p>
 			</div><!-- footer contact -->
 		</div> <!-- footerblock -->
 	</div><!-- footer -->
+
+<!--LIVERELOAD-->
+	<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
 </body>
 </html>

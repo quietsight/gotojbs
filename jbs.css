@@ -53,7 +53,7 @@ src: url('fonts/amaranth-webfont.eot?#iefix') format('embedded-opentype'), /* IE
 
 .logo {
 	position: relative;
-	margin-top: -50px;
+	margin-top: -40px;
 	margin-left: 40px;
 	float: left;
 	background-image: url('images/jblogo.png');
@@ -70,6 +70,12 @@ src: url('fonts/amaranth-webfont.eot?#iefix') format('embedded-opentype'), /* IE
 	background-image: url('images/jblogo-hover.png');
 }
 
+.tagline {
+	font-size: 34px;
+	line-height: 5px;
+	margin-top: 20px;
+}
+
 .contactinfo {
 	color: #E29F53;
 	font-size: 20px;
@@ -77,15 +83,12 @@ src: url('fonts/amaranth-webfont.eot?#iefix') format('embedded-opentype'), /* IE
 	text-align: center;
 }
 
-.tagline {
-	font-size: 34px;
-	line-height: 5px;
+.addressphone {
+	font-size: 28px;
+	margin-top: -10px;
+	margin-bottom: -10px;
 }
 
-.hours p {
-	text-align: center;
-	color: #E29F53;
-}
 
 /* NAVBAR */
 .nav {
@@ -99,7 +102,7 @@ src: url('fonts/amaranth-webfont.eot?#iefix') format('embedded-opentype'), /* IE
 .nav ul {
 	position: relative;
 	top: 12px;
-	left: 85px;
+	left: 105px;
 	z-index: 999;
 }
 
@@ -130,7 +133,6 @@ src: url('fonts/amaranth-webfont.eot?#iefix') format('embedded-opentype'), /* IE
 
 
 /* MAIN CONTENT */
-
 
 .menupage {
 	background: #EFDFC4 url('https://s3.amazonaws.com/gotojbs/straws1.png');
@@ -166,6 +168,32 @@ src: url('fonts/amaranth-webfont.eot?#iefix') format('embedded-opentype'), /* IE
 	background-color: red;
 }
 
+.ourstory {
+}
+
+.ourstory img {
+	width: 300px
+}
+
+.ourstoryleft {
+	float: left;
+	margin-right: 10px;
+	border: 2px solid #523200;
+	border-radius: 5px;
+	box-shadow: 0 0 10px #000;
+	-webkit-box-shadow: 0 0 10px #000;
+	-moz-box-shadow: 0 0 10px #000;
+}
+
+.ourstoryright {
+	float: right;
+	margin-left: 10px;
+	border: 2px solid #523200;
+	border-radius: 5px;
+	box-shadow: 0 0 10px #000;
+	-webkit-box-shadow: 0 0 10px #000;
+	-moz-box-shadow: 0 0 10px #000;
+}
 
 /* MENU */
 .category {
@@ -301,6 +329,12 @@ text-indent:50px;
 	margin-left: 12px;
 }
 
+/* FIND US */
+.googlemap {
+	width: 640px;
+	margin: 0 auto;
+}
+
 /* FOOTER */
 #footer {
 	display: table;
@@ -350,13 +384,10 @@ text-indent:50px;
 }
 
 .footersocial {
-	margin-top: 20px;
+	margin-top: 15px;
 }
 
 .footerlinks {
 	width: 70px;
-/* TEMPORARY */
-	visibility: hidden;
-/* TEMPORARY */	
 }
 

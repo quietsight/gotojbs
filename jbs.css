@@ -125,11 +125,6 @@ src: url('fonts/amaranth-webfont.eot?#iefix') format('embedded-opentype'), /* IE
 	text-shadow: 0 0 10px red;
 }
 
-.nav2 li {
-	font-size: 26px;
-	line-height: 1.6;
-}
-
 
 
 /* MAIN CONTENT */
@@ -389,5 +384,19 @@ text-indent:50px;
 
 .footerlinks {
 	width: 70px;
+}
+
+/*
+	TEMPORARY
+
+*/
+.footer2 {
+	visibility: hidden;
+}
+
+.nav2 li {
+	font-size: 26px;
+	line-height: 1.6;
+	margin-left: -10px;
 }
 
